@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B419BE9270D4116000A6A93 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B419BE7270D4116000A6A93 /* Main.xcdatamodeld */; };
+		3B419BEB270D47F9000A6A93 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B419BEA270D47F9000A6A93 /* DataController.swift */; };
 		3BDB8EFB270BF1230000BF36 /* Ultimate_PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB8EFA270BF1230000BF36 /* Ultimate_PortfolioApp.swift */; };
 		3BDB8EFD270BF1230000BF36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB8EFC270BF1230000BF36 /* ContentView.swift */; };
 		3BDB8EFF270BF1250000BF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB8EFE270BF1250000BF36 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		3B419BE8270D4116000A6A93 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		3B419BEA270D47F9000A6A93 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		3BDB8EF7270BF1230000BF36 /* Ultimate Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDB8EFA270BF1230000BF36 /* Ultimate_PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultimate_PortfolioApp.swift; sourceTree = "<group>"; };
 		3BDB8EFC270BF1230000BF36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				3BDB8EFA270BF1230000BF36 /* Ultimate_PortfolioApp.swift */,
 				3BDB8EFC270BF1230000BF36 /* ContentView.swift */,
 				3B419BE7270D4116000A6A93 /* Main.xcdatamodeld */,
+				3B419BEA270D47F9000A6A93 /* DataController.swift */,
 				3BDB8EFE270BF1250000BF36 /* Assets.xcassets */,
 				3BDB8F00270BF1250000BF36 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B419BE9270D4116000A6A93 /* Main.xcdatamodeld in Sources */,
+				3B419BEB270D47F9000A6A93 /* DataController.swift in Sources */,
 				3BDB8EFD270BF1230000BF36 /* ContentView.swift in Sources */,
 				3BDB8EFB270BF1230000BF36 /* Ultimate_PortfolioApp.swift in Sources */,
 			);
