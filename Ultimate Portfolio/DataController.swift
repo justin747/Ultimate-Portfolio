@@ -9,13 +9,13 @@ import CoreData
 import SwiftUI
 
 class DataController: ObservableObject {
+    
     /// The  CloudKit container
     let container: NSPersistentCloudKitContainer
 
+    
+    
     /// Initializes a data controller in memory or in permanent storage
-    
-    
-    
     /// Defaults to permanent storage.
     /// inMemory decides wether  to store this data in temporary memory or not.
     
@@ -34,8 +34,7 @@ class DataController: ObservableObject {
     }
 
 
-    /// Saves our Core Data context iff there are changes. This silently ignores
-    /// any errors caused by saving, but this should be fine because all our attributes are optional.
+    /// Saves  Core Data when changes are made.
     
     func save() {
         if container.viewContext.hasChanges {
@@ -46,9 +45,6 @@ class DataController: ObservableObject {
     func delete(_ object: NSManagedObject) {
         container.viewContext.delete(object)
     }
-
-    /// Creates example projects and items to make manual testing easier.
-    /// - Throws: An NSError sent from calling save() on the NSManagedObjectContext.
     
     
     func createSampleData() throws {
