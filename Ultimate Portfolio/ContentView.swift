@@ -23,7 +23,7 @@ struct ContentView: View {
             ProjectView(showClosedProjects: true)
                 .tabItem {
                     Image(systemName: "checkmark")
-                    Text("Closed")
+                    Text("Complete")
                 }
         }
     }
