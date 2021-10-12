@@ -25,6 +25,12 @@ struct ContentView: View {
                     Image(systemName: "checkmark")
                     Text("Complete")
                 }
+            
+            ProjectView(showClosedProjects: true)
+                .tabItem {
+                    Image(systemName: "doc.fill")
+                    Text("Test")
+                }
         }
     }
 }
